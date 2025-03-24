@@ -1,12 +1,12 @@
 # ds2002project1
 
-# Agriculture Data ETL Processor
+# Agriculture Data Processor
 
 This project processes fruit and vegetable price data from two different sources (CSV files and an API), performs necessary transformations, analyzes the data, and stores the results in an SQLite database.
 
 ## Project Overview
 
-The ETL (Extract, Transform, Load) processor performs the following tasks:
+The data processor performs the following tasks:
 1. **Extracts** data from two CSV files (`Fruit-Prices-2022.csv` and `Vegetable-Prices-2022.csv`) and an external API (USDA QuickStats).
 2. **Transforms** the data by cleaning, merging, and summarizing it.
 3. **Loads** the transformed data into an SQLite database for easy storage and retrieval.
